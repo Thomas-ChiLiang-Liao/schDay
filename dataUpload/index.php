@@ -31,12 +31,12 @@
     		<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
     			<div class="card mx-xl-5">
     				<div class="card-header bg-primary">
-    					<h5 class="text-white p-1">資料上傳作業</h5>
+    					<h5 class="text-white p-1">後台資料庫上傳作業</h5>
     				</div>
     				<div class="card-body">
 							<form action="dealWithUploadedFile.php" method="post" enctype="multipart/form-data">
 								<div class="form-group">
-									<label for="semester">學年期</label>
+									<label for="semester">請輸入學年期</label>
 									<input type="text" class="form-control" id="semester" name="semester" pattern="[0-9]{4}">
 								</div>
 								<div class="custom-file mt-3">

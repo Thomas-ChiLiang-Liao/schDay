@@ -108,7 +108,7 @@ $teacherQuery->execute();
                 ?>
               </table>
               <div class="text-center">
-                <a href="listBySemester.php?s=1112" class="btn btn-primary">返回班級列表</a>
+                <a href="listBySemester.php?s=<?php echo $_GET['s'];?>" class="btn btn-primary">返回班級列表</a>
               </div>
               
               <!--

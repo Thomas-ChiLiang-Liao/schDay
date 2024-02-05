@@ -1,3 +1,3 @@
 <?php
-$SEMESTER = '1112';
+$SEMESTER = '1122';
 ?>
