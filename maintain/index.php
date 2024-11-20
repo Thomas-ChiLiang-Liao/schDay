@@ -68,9 +68,10 @@ else {
                     <option data-value="0081" value="莊政道"></option>
                     <option data-value="0083" value="林冠宇"></option>
                     <option data-value="0139" value="張佩琪"></option>
-                    <option data-value="0127" value="蔡政安"></option>
-                    <option data-value="0164" value="鄧宇超"></option>
+                    <option data-value="0316" value="盧柏毓"></option>
                     <option data-value="0128" value="陳德貴"></option>
+                    <option data-value="0164" value="鄧宇超"></option>
+                    <option data-value="0135" value="蕭為康"></option>
                     <option data-value="0150" value="黃建中"></option>
  									</datalist>
  								</div>

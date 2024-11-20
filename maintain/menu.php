@@ -26,7 +26,7 @@ function menu($func) {
 						</a>
 					</li>
 					
-					<?php if ( strpos('廖啟良蔡政安', $_SESSION['name'] ) !== false ) { ?>
+					<?php if ( strpos('廖啟良盧柏毓', $_SESSION['name'] ) !== false ) { ?>
 					<li class="nav-item<?php echo ( $func == 'tables' ? ' active' : ''); ?>">
 						<a class="nav-link" href="<?php echo "https://$_SESSION[serverRoot]/tables/";?>">
 							課表維護
@@ -34,7 +34,7 @@ function menu($func) {
 					</li>
 				  <?php } ?>
 				  
-					<?php if ( strpos('廖啟良蔡政安張佩琪鄧宇超陳德貴黃建中', $_SESSION['name'] ) !== false ) { ?>
+					<?php if ( strpos('廖啟良盧柏毓張佩琪陳德貴鄧宇超蕭為康黃建中', $_SESSION['name'] ) !== false ) { ?>
 					<li class="nav-item<?php echo ( $func == 'listCreater' ? ' active' : ''); ?>">
 						<a class="nav-link" href="<?php echo "https://$_SESSION[serverRoot]/listCreater/";?>">
 							上傳統計表

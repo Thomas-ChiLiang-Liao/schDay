@@ -21,7 +21,7 @@ else {
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/4.5.2/jquery.min.js"></script>
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<!--<script src="https://www.google.com/recaptcha/api.js" async defer></script>-->
     <!-- 本專案的 js -->
     <script type="text/javascript" src="/include/js/sha1.js"></script>	
     <script>
@@ -73,7 +73,7 @@ else {
      							</div>
     							<input type="password" class="form-control" placeholder="請輸入密碼" id="userPw" name="userPw">
     						</div> 								
-    						<div class="g-recaptcha mt-2" data-sitekey="6LdVj94UAAAAAIVoFG72BRn-xnxIE_bx3uemirm7"></div>
+    						<!--<div class="g-recaptcha mt-2" data-sitekey="6LdVj94UAAAAAIVoFG72BRn-xnxIE_bx3uemirm7"></div>-->
     						<button type="button" class="btn btn-secondary mt-2">登入</button>			
     					</form>
     				</div>
