@@ -48,7 +48,7 @@ function menu($func) {
 				      教職員密碼重置
 				    </a>
 				  </li>
-				  <? } ?>
+				  <?php } ?>
 				  
 				</ul>		
 				<p class="text-white my-2">

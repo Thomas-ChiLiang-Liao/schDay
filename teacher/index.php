@@ -27,6 +27,7 @@ else {
     <script>
       $(document).ready(function() {
         $("button").click(function() {
+					// 先將使用者輸入的密碼以 SHA1 加密
           $("#userPw").val( SHA1( $("#userPw").val() ) );
           //$("#operators option").length
         	//$("#operators option:eq(10)").attr("data-value")
