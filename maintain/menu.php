@@ -33,6 +33,14 @@ function menu($func) {
 						</a>
 					</li>
 				  <?php } ?>
+
+					<?php if ( strpos('廖啟良盧柏毓', $_SESSION['name'] ) !== false ) { ?>
+					<li class="nav-item<?php echo ( $func == 'assistUpload' ? ' active' : ''); ?>">
+						<a class="nav-link" href="<?php echo "https://$_SESSION[serverRoot]/assistUpload/";?>">
+							協助上傳
+						</a>
+					</li>
+				  <?php } ?>
 				  
 					<?php if ( strpos('廖啟良盧柏毓張佩琪陳德貴鄧宇超蕭為康黃建中', $_SESSION['name'] ) !== false ) { ?>
 					<li class="nav-item<?php echo ( $func == 'listCreater' ? ' active' : ''); ?>">
